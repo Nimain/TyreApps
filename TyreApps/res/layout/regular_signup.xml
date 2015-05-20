@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:layout_weight="2"
+    android:background="@drawable/login"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/login_but"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/bbkg"
+        android:text="Login"
+        
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text=" By Signing Up,I agree to the Terms of Service, 
+        Policy privacy policy of the tire app"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/signup_but"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login_but"
+        android:layout_alignBottom="@+id/login_but"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_weight="1"
+        android:background="@drawable/bbkg"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
